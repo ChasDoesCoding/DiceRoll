@@ -59,6 +59,7 @@ int main() { // Declare integer variable called main which will be executed upon
 
 		printf("Player 1 score: %d.\n",player1Score); // State player 1's score
 		printf("Player 2 score: %d.\n",player2Score);
+		printf("Rounds remaining: %d.\n",rounds); // State how many rounds are left
 
 		int player1Roll = playerRoll(1); // Declare an integer variable called player1Roll and define it to the output of playerRoll with 1 substituted in for whoseTurn
 		int player2Roll = playerRoll(2);
